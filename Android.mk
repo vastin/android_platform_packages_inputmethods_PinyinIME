@@ -9,7 +9,7 @@ LOCAL_SRC_FILES := \
 
 LOCAL_PACKAGE_NAME := PinyinIME
 
-LOCAL_JNI_SHARED_LIBRARIES := libjni_pinyinime
+LOCAL_REQUIRED_MODULES := libjni_pinyinime
 
 LOCAL_STATIC_JAVA_LIBRARIES := com.android.inputmethod.pinyin.lib
 
